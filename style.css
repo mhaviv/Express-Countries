@@ -1,0 +1,40 @@
+body {
+	text-align:center;
+	font-family: papyrus;
+	font-style: italic;
+	color: #001f3f;
+}
+
+li {
+	list-style-type: none;
+	font-size: 4em;
+}
+
+span {
+	font-family: helvetica;
+	font-style: normal;
+}
+
+.backgroundImg {
+	position: absolute;
+    z-index: -3;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(images/world.jpg);
+    opacity: .8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: fixed;
+}
+
+.flagImg {
+	width: 60%;
+	height: 60%;
+}
+
+.countryTitle {
+	font-size: 10em; 
+}

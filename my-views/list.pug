@@ -1,0 +1,26 @@
+doctype html
+html(lang="en")
+	head
+		title="Express Countries"
+		link(href="../style.css" rel="stylesheet")
+	body
+		div.backgroundImg
+
+		ul
+			li
+				img.flagImg(src=flag)
+			li.countryTitle
+				span
+					=name
+			li Native Name: 
+				span
+					=nativeName
+			li Country Code: 
+				span
+					=code
+			li Population: 
+				span
+					=population
+			li Region: 
+				span
+					=region
